@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Installation and update guide
+    url: https://github.com/equisdots/dots#readme
+    about: How to install, update and diagnose the desktop stack.
+  - name: Interactive scene guide
+    url: https://github.com/equisdots/background/blob/main/docs/scene-guide.md
+    about: How to write and install JavaScript wallpapers.
+  - name: Security report
+    url: https://github.com/equisdots/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately, never in a public issue.

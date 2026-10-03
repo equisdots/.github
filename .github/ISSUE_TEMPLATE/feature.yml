@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an improvement for the equisdots stack.
+title: "[feature] "
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - dots (install, update)
+        - hyprland (configuration, scripts)
+        - shell (bar, panels, widgets, editor)
+        - davincix (wallpaper kernel, picker)
+        - background (collection, interactive scenes)
+        - palettes / theme-sync
+        - timex / xturing / login
+        - xwww (wallpaper daemon)
+        - Other / organisation
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is inconvenient or missing today?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: How would you like it to work? Keep it palette-driven and small if you can.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
