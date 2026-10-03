@@ -1,6 +1,5 @@
-<!-- TODO(brand): replace profile/assets/logo.svg with the final equisdots logo. -->
 <p align="center">
-  <img src="assets/logo.svg" width="104" alt="equisdots">
+  <img src="https://equisdots.github.io/web/logos/equisdots-icon.svg" width="104" alt="equisdots">
 </p>
 
 <h1 align="center">equisdots</h1>

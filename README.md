@@ -4,8 +4,9 @@ Organisation profile and shared community health files for the
 [equisdots](https://github.com/equisdots) organisation.
 
 - `profile/README.md` renders at the top of https://github.com/equisdots.
-- `profile/assets/` keeps the images used by the profile (logo, hero,
-  screenshots). Replace the placeholder files with the final brand assets.
+- Brand images are served from the website deployment
+  (`https://equisdots.github.io/web/logos/`) so the profile and the site share
+  one source of truth.
 - `.github/ISSUE_TEMPLATE/` defines the org-wide issue templates. They apply to
   every repository that does not ship its own templates.
 
@@ -14,7 +15,8 @@ the commit lands on `main`.
 
 ## Open points
 
-- Drop the final logo in `profile/assets/logo.svg` (and a hero/screenshot in
-  `profile/assets/hero.*`); the readme references both with HTML comments.
+- The profile logo comes from the website deployment
+  (`https://equisdots.github.io/web/logos/equisdots-icon.svg`); a hero image or
+  screenshot can be added later the same way.
 - Optionally add `CODE_OF_CONDUCT.md` and a license note for the docs when the
   brand decisions are made.
