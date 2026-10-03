@@ -1,8 +1,6 @@
-<p align="center">
-  <img src="https://equisdots.github.io/web/logos/equisdots-icon.svg" width="104" alt="equisdots">
-</p>
-
-<h1 align="center">equisdots</h1>
+<h1 align="center">
+ equisdots 
+</h1>
 
 <p align="center">
   <em>An opinionated Arch-based desktop stack: Hyprland in the Lua era, a
