@@ -14,6 +14,7 @@
   <a href="https://github.com/equisdots/shell">shell</a> ·
   <a href="https://github.com/equisdots/davincix">davincix</a> ·
   <a href="https://github.com/equisdots/palettes">palettes</a> ·
+  <a href="https://github.com/equisdots/nyx">nyx</a> ·
   <a href="https://github.com/equisdots/background">background</a>
 </p>
 
@@ -36,6 +37,9 @@ themselves live when the theme changes.
   colors.
 - **Quickshell shell.** Bar with zones and a full editor, panels, popups and
   floating desktop widgets with a visual redactor; palette-aware everywhere.
+- **Nyx.** The little mascot island / notch that turns into a control center:
+  chibi species (flame, cat, dog, eyes, dots, watcher), typewriter clock, live
+  stats, quick-action toggles and a searchable widget grid.
 - **Live palette engine.** base16 palettes plus semantic roles; switching a
   palette recolors the shell, window borders, widgets and running scenes
   without a reload.
@@ -66,6 +70,7 @@ dots doctor   # check dependencies, clones and installed paths
 | [dots](https://github.com/equisdots/dots) | Meta installer and updater: clones, wires and updates the whole stack. |
 | [hyprland](https://github.com/equisdots/hyprland) | Hyprland compositor configuration (Lua era), scripts and system installer. |
 | [shell](https://github.com/equisdots/shell) | Quickshell shell: bar, editor, panels, popups and desktop widgets. |
+| [nyx](https://github.com/equisdots/nyx) | Mascot island / notch + control center for the shell: species, dock, live stats and quick actions. |
 | [davincix](https://github.com/equisdots/davincix) | Wallpaper kernel: images, video and interactive scenes, with the picker frontend. |
 | [palettes](https://github.com/equisdots/palettes) | base16 color palettes with semantic roles and the schema they follow. |
 | [theme-sync](https://github.com/equisdots/theme-sync) | Palette-driven theming engine for the applications in the stack. |
