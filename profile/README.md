@@ -3,9 +3,9 @@
 </h1>
 
 <p align="center">
-  <em>An opinionated Arch-based desktop stack: Hyprland in the Lua era, a
-  Quickshell shell, a live palette engine and a wallpaper kernel with
-  interactive scenes.</em>
+  <em>An opinionated Arch-based desktop stack: Hyprland in the Lua era and a
+  niri port, a Quickshell shell, a live palette engine and a wallpaper kernel
+  with interactive scenes.</em>
 </p>
 
 <p align="center">
@@ -16,6 +16,15 @@
   <a href="https://github.com/equisdots/palettes">palettes</a> ·
   <a href="https://github.com/equisdots/nyx">nyx</a> ·
   <a href="https://github.com/equisdots/background">background</a>
+</p>
+
+<p align="center">
+  <sub>niri (alternative compositor)</sub><br/>
+  <a href="https://github.com/equisdots/niri">niri</a> ·
+  <a href="https://github.com/equisdots/niri-meta">niri-meta</a> ·
+  <a href="https://github.com/equisdots/niri-shell">niri-shell</a> ·
+  <a href="https://github.com/equisdots/nyx-niri">nyx-niri</a> ·
+  <a href="https://github.com/equisdots/niri-login">niri-login</a>
 </p>
 
 ---
@@ -81,6 +90,29 @@ dots doctor   # check dependencies, clones and installed paths
 
 The `xwww` wallpaper daemon (a fork of awww with extra transitions) lives at
 [x-ports/xwww](https://github.com/x-ports/xwww).
+
+### niri (alternative compositor)
+
+The same desktop also runs on [niri](https://github.com/equisdots/niri), a
+scrollable-tiling Wayland compositor. The niri layer mirrors the Hyprland one
+and reuses the shared shell, palette, theme and wallpaper engines; it is
+installed and managed by its own meta command, `dotsniri`.
+
+| Repository | What it provides |
+|---|---|
+| [niri](https://github.com/equisdots/niri) | niri compositor configuration (KDL), session scripts and system installer. |
+| [niri-meta](https://github.com/equisdots/niri-meta) | Meta installer and updater (`dotsniri`): installs, wires and updates the niri stack. |
+| [niri-shell](https://github.com/equisdots/niri-shell) | Compositor-neutral overlay that makes the Quickshell shell run on niri. |
+| [nyx-niri](https://github.com/equisdots/nyx-niri) | Compositor-neutral overlay for the `nyx` mascot island. |
+| [niri-login](https://github.com/equisdots/niri-login) | Wayland session entry so display managers list "Niri". |
+
+`hyprland` and `niri` are the two compositor front ends; `shell`, `nyx`,
+`palettes`, `theme-sync`, `background`, `timex` and `login` are shared by both.
+Install the niri stack with:
+
+```sh
+bash <(curl -fsSL https://raw.githubusercontent.com/equisdots/niri-meta/main/bin/dotsniri) install
+```
 
 ## Documentation
 
