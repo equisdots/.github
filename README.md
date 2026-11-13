@@ -20,3 +20,13 @@ the commit lands on `main`.
   screenshot can be added later the same way.
 - Optionally add `CODE_OF_CONDUCT.md` and a license note for the docs when the
   brand decisions are made.
+
+## License
+
+AGPL-3.0-or-later — see [LICENSE](LICENSE). Copyright (C) 2026 xscriptor <x@xscriptor.com>.
+
+This repository is licensed under the GNU Affero General Public License, version 3 or any later version. If you modify the software and let users interact with it over a network, you must offer them the corresponding source.
+
+No license was declared for releases before 2026-11-13; this license applies from this change.
+
+Third-party components, fonts, icons, images, sounds, vendored code and other assets keep their original licenses and are not covered by this license. See THIRD-PARTY.md / CREDITS.md where present.
